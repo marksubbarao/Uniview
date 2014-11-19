@@ -7,4 +7,7 @@ Uniview
   <li>
     <a href=http://nbviewer.ipython.org/github/marksubbarao/Uniview/blob/master/Pulsing%20Pulsars.ipynb>Pulsing Pulsars</a> iPython notebook for acquiring data from Vizier and outputting a USES style data file.
   </li>
+  <li>
+    <a href=http://nbviewer.ipython.org/github/marksubbarao/Uniview/blob/master/Pulsing%20Pulsars.ipynb>Pulsing Pulsars</a> the pulsar data file
+  </li>
 </ul>
