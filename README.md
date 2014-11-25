@@ -12,3 +12,4 @@ A Uniview data module that displays the 3D position of known pulsars in our Gala
     <a href=https://github.com/marksubbarao/Uniview/tree/master/PulsingPulsars>PulsingPulsars</a> the UniView data module.
   </li>
 </ul>
+<img src=https://raw.githubusercontent.com/marksubbarao/Uniview/master/images/pulsar.png>
