@@ -44,15 +44,17 @@ void drawSprite(vec4 position, float radius, float rotation)  // Camera facing s
 
 void main()
 {
-	float Period = gl_in[1].gl_Position[2]; 
+	float Period = gl_in[2].gl_Position[0]; 
+	float L = gl_in[2].gl_Position[0];
+	float Lmin=0.75;
     float repeatingTime = mod(uv_simulationtimeSeconds, Period) / Period; 
 	//If the period is too short, don't attempt to vary the size
 	if (Period < 0.1) {
 	  color=vec4(0.0,1.0,1.0,1.0);
-      drawSprite(0.5*gl_in[0].gl_Position, pulsarMarkerSize, 0);
+      drawSprite(0.5*gl_in[0].gl_Position, max(Lmin,L)*pulsarMarkerSize, 0);
 	} else {
       color = vec4(1.0,1.0,0.2,1.0);
       float repeatingTime = mod(uv_simulationtimeSeconds, Period) / Period; 
-      drawSprite(gl_in[0].gl_Position, sin(3.1415926*repeatingTime)*pulsarMarkerSize, 0);
+      drawSprite(gl_in[0].gl_Position, sin(3.1415926*repeatingTime)*max(Lmin,L)*pulsarMarkerSize, 0);
 	}
 }
