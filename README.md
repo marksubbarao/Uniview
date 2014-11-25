@@ -1,7 +1,7 @@
-Uniview
+UniView
 =======
 
-<h2>Uniview based visualization projects</h2>
+<h2>UniView based visualization projects</h2>
 <h3>Pulsing Pulsars</h3>
 A Uniview data module that displays the 3D position of known pulsars in our Galaxy. Markers at the position of each pulsar are scaled according to the pulsar's luminosity and pulse according to the pulsar's pulsation period.
 <ul>
