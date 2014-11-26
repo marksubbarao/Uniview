@@ -8,10 +8,10 @@ A UniView model visualizing the Grand Tack Scenerio, a model for planetary migra
 This model explains a numbers of longstanding questions such as the low mass of Mars, and why the Asteroid belt contains both rocky and icy objects.
 <ul>
   <li>
-    <a href=http://nbviewer.ipython.org/github/marksubbarao/Uniview/blob/master/GrandTack%20Tack.ipynb>Grand Tack</a> iPython notebook for taking data captured from figure 1. of the Nature paper and outputting a USES style data file.
+    <a href=http://nbviewer.ipython.org/github/marksubbarao/Uniview/blob/master/Grand%20Tack.ipynb>Grand Tack</a> iPython notebook for taking data captured from figure 1. of the Nature paper and outputting a USES style data file.
   </li>
   <li>
-    <a href=https://github.com/marksubbarao/Uniview/tree/master/GrandTack>GrandTacks</a> the UniView data module.
+    <a href=https://github.com/marksubbarao/Uniview/tree/master/GrandTack>GrandTack</a> the UniView data module.
   </li>
 </ul>
 <img src=https://raw.githubusercontent.com/marksubbarao/Uniview/master/images/GrandTackBanner.png>
