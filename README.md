@@ -30,7 +30,7 @@ A Uniview data module that displays the 3D position of known pulsars in our Gala
 A Uniview data module that displays the peculiar velocities of nearby galaxies.
 <ul>
   <li>
-    <a href=http://nbviewer.ipython.org/github/marksubbarao/Uniview/blob/master/CosmicFlows%20in%20UniView.ipynb>CosmicFlowa in Uniview</a> iPython notebook for acquiring data from VizieR and outputting a USES style data file.
+    <a href=http://nbviewer.ipython.org/github/marksubbarao/Uniview/blob/master/CosmicFlows%20in%20UniView.ipynb>CosmicFlows in Uniview</a> iPython notebook for acquiring data from VizieR and outputting a USES style data file.
   </li>
   <li>
     <a href=https://github.com/marksubbarao/Uniview/tree/master/CosmicFlows>CosmicFlows</a> the UniView data module.
